@@ -6,7 +6,7 @@ body {
     min-width: 1250px;
     font-family: "微軟正黑體";
     background-color: #00477D;
-    background-image: url(picture/背景圖NEW.png);
+    background-image: url('../picture/背景圖NEW.png');
     background-size: 1510px 766px;
     background-attachment: fixed;
 }
