@@ -90,6 +90,9 @@ div.back{
 }
 img.buttom{
     width: 200px;
+    position: relative;
+    top: 620px;
+    right: 140px;
 }
 
 /*----------路線1234----------*/
