@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border: none;
+    min-width: 1250px;
+    font-family: "微軟正黑體";
+    background-color: #00477D;
+    background-image: url(picture/背景圖NEW.png);
+    background-size: 1510px 766px;
+    background-attachment: fixed;
+}
+
+/*----------上方菜單----------*/
+
+div.meau {
+    background-color: beige;
+    width: 100%;
+    height: 120px;
+}
+
+img.logo_area {
+    width: 100px;
+    height: 80px;
+    margin: 20px 0px 0px 60px;
+    float: left;
+}
+
+img.logo2_area {
+    width: 250px;
+    height: 70px;
+    margin: 20px;
+    float: left;
+}
+
+div.meau_area {
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    padding: 0px;
+    float: right;
+}
+
+ul.meau_list {
+    list-style-type: none;
+    margin: 0px;
+    float: right;
+}
+
+li.meau_choice {
+    display: inline;
+    padding: 0px 15px;
+    font-size: 30px;
+    color: black;
+    float: left;
+}
+
+/*-----翻轉卡片-----*/
+div.block {
+    width: 100%;
+    margin-top: 30px;
+    max-width: 1920px;
+    height: auto;
+    clear: both;
+
+}
+
+.introduce {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-family: "微軟正黑體";
+    letter-spacing: 25px;
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 28px;
+}
+
+div.flip-card {
+    background-color: transparent;
+    width: 45%;
+    height: 100%;
+    max-width: 750px;
+    margin: 10px;
+    float: left;
+    perspective: 1000px;
+    margin: 10px 2.5%
+}
+
+div.flip-card-inner {
+    position: relative;
+    width: 100%;
+    max-width: 750px;
+    height: 445px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+div.flip-card:hover div.flip-card-inner {
+    transform: rotateX(180deg);
+    max-width: 750px;
+}
+
+div.flip-card-front,
+div.flip-card-back {
+    position: absolute;
+    width: 100%;
+    max-width: 750px;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+div.flip-card-front {
+    max-width: 750px;
+}
+
+div.flip-card-back {
+    background-color: #ffd9e6 ;
+    color:black;
+    font-weight: 610;
+    max-width: 750px;
+    transform: rotateY(180deg);
+    font-family: 微軟正黑體;
+}
+
+div.person_areaB {
+    width: 100%;
+    max-width: 750px;
+    background-color:beige  ;
+    float: left;
+}
+
+div.picbox {
+    width: 40%;
+    float: left;
+    margin: 5%;
+    border-radius: 100px;
+    border-color: black;
+}
+
+img.person_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px
+}
+
+div.single_show {
+    padding: 6% 0;
+    width: 40%;
+    height: 350px;
+    float: left;
+}
+
+div.text_area {
+    width: 100%;
+    float: left;
+    margin-top: 2px;
+    overflow: auto;
+    height: 350px;
+
+}
+
+p.text01 {
+    width: 100%;
+    font-size: 22px;
+    font-family: 微軟正黑體;
+    font-weight: bold;
+    line-height: 28px;
+    color: 	#4D1F00;
+}
+
+p.think {
+    /*width: 90%;*/
+    padding: 50px 73px 110px 73px;
+    top: -40px;
+    text-align: justify;
+    /* overflow: auto;*/
+    height: 60%;
+    font-size: 20px;
+    line-height: 27.5px;
+    transform: rotateX(180deg)rotateY(180deg)
+}
+
+/*-----FB、IG圖示-----*/
+/*div.inconnect_logo{
+    margin: 0 auto;
+    position:absolute;
+    top: 5%;
+    left: 40%;
+    width: 164px;
+}*/
+
+div.FB_LINK{
+    position: relative;
+    top: -440px;
+    left: 150px;
+    width: 72px;
+    float: left;
+    transform: rotateX(180deg)rotateY(180deg)
+}
+div.IG_LINK{
+    position: relative;
+    top: -440px;
+    left: 220px;
+    width: 72px;
+    float: left;
+    /*margin-left: 50px;*/
+    transform: rotateX(180deg)rotateY(180deg)
+}
