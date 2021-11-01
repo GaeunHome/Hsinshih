@@ -62,10 +62,12 @@ li.meau_choice{
 }
 
 .item{
-    flex: none;
-    width: 495px;
-    background-color: black;
+    float: left;
+	margin: 80px 50px 50px 50px;
+	padding: 40px 20px 20px 20px;
+	width: 40%;
 }
+
 .space{
     width: 10px;
 }
