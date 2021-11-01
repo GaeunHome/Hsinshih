@@ -60,3 +60,12 @@ li.meau_choice{
     text-align: center;
     color: white;
 }
+
+.item{
+    flex: none;
+    width: 495px;
+    background-color: black;
+}
+.space{
+    width: 10px;
+}
