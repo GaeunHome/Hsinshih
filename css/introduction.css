@@ -63,7 +63,7 @@ li.meau_choice{
 
 .part_video{
     margin:0 auto;
-    width: 1200px;
+    width: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
