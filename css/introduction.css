@@ -71,6 +71,7 @@ li.meau_choice{
 
 .video{
     flex: none;
+    margin: 10px 10px 10px 10px;
     width: 495px;
     background-color: black;
 }
