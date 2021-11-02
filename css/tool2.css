@@ -170,11 +170,11 @@ li.meau_choice {
 }
 
 .think {
-    /*width: 90%;*/
+   
     padding: 50px 73px 110px 73px;
     top: -40px;
     text-align: justify;
-    /* overflow: auto;*/
+   
     height: 60%;
     font-size: 20px;
     line-height: 27.5px;
@@ -182,13 +182,6 @@ li.meau_choice {
 }
 
 /*-----FB、IG圖示-----*/
-/*.inconnect_logo{
-    margin: 0 auto;
-    position:absolute;
-    top: 5%;
-    left: 40%;
-    width: 164px;
-}*/
 
 .FB_LINK{
     position: relative;
@@ -204,6 +197,5 @@ li.meau_choice {
     left: 220px;
     width: 72px;
     float: left;
-    /*margin-left: 50px;*/
     transform: rotateX(180deg)rotateY(180deg)
 }
