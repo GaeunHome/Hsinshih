@@ -56,7 +56,7 @@ li.meau_choice {
 }
 
 /*-----翻轉卡片-----*/
-div.block {
+.block {
     width: 100%;
     margin-top: 30px;
     max-width: 1920px;
@@ -76,7 +76,7 @@ div.block {
     margin-bottom: 28px;
 }
 
-div.flip-card {
+.flip-card {
     background-color: transparent;
     width: 45%;
     height: 100%;
@@ -87,7 +87,7 @@ div.flip-card {
     margin: 10px 2.5%
 }
 
-div.flip-card-inner {
+.flip-card-inner {
     position: relative;
     width: 100%;
     max-width: 750px;
@@ -96,13 +96,13 @@ div.flip-card-inner {
     transform-style: preserve-3d;
 }
 
-div.flip-card:hover div.flip-card-inner {
+.flip-card:hover div.flip-card-inner {
     transform: rotateX(180deg);
     max-width: 750px;
 }
 
-div.flip-card-front,
-div.flip-card-back {
+.flip-card-front,
+.flip-card-back {
     position: absolute;
     width: 100%;
     max-width: 750px;
@@ -110,11 +110,11 @@ div.flip-card-back {
     backface-visibility: hidden;
 }
 
-div.flip-card-front {
+.flip-card-front {
     max-width: 750px;
 }
 
-div.flip-card-back {
+.flip-card-back {
     background-color: #ffd9e6 ;
     color:black;
     font-weight: 610;
@@ -123,14 +123,14 @@ div.flip-card-back {
     font-family: 微軟正黑體;
 }
 
-div.person_areaB {
+.person_areaB {
     width: 100%;
     max-width: 750px;
     background-color:beige  ;
     float: left;
 }
 
-div.picbox {
+.picbox {
     width: 40%;
     float: left;
     margin: 5%;
@@ -138,20 +138,20 @@ div.picbox {
     border-color: black;
 }
 
-img.person_img {
+.person_img {
     width: 100%;
     height: 100%;
     border-radius: 50px
 }
 
-div.single_show {
+.single_show {
     padding: 6% 0;
     width: 40%;
     height: 350px;
     float: left;
 }
 
-div.text_area {
+.text_area {
     width: 100%;
     float: left;
     margin-top: 2px;
@@ -160,7 +160,7 @@ div.text_area {
 
 }
 
-p.text01 {
+.text01 {
     width: 100%;
     font-size: 22px;
     font-family: 微軟正黑體;
@@ -169,7 +169,7 @@ p.text01 {
     color: 	#4D1F00;
 }
 
-p.think {
+.think {
     /*width: 90%;*/
     padding: 50px 73px 110px 73px;
     top: -40px;
@@ -182,7 +182,7 @@ p.think {
 }
 
 /*-----FB、IG圖示-----*/
-/*div.inconnect_logo{
+/*.inconnect_logo{
     margin: 0 auto;
     position:absolute;
     top: 5%;
@@ -190,7 +190,7 @@ p.think {
     width: 164px;
 }*/
 
-div.FB_LINK{
+.FB_LINK{
     position: relative;
     top: -440px;
     left: 150px;
@@ -198,7 +198,7 @@ div.FB_LINK{
     float: left;
     transform: rotateX(180deg)rotateY(180deg)
 }
-div.IG_LINK{
+.IG_LINK{
     position: relative;
     top: -440px;
     left: 220px;
