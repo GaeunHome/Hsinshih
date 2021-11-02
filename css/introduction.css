@@ -61,7 +61,7 @@ li.meau_choice{
     color: white;
 }
 
-.main{
+.part_video{
     margin:0 auto;
     width: 1000px;
     display: flex;
@@ -69,8 +69,12 @@ li.meau_choice{
     justify-content: center;
 }
 
-.item{
+.video{
     flex: none;
     width: 495px;
     background-color: black;
+}
+
+.space{
+    width: 10px;
 }
