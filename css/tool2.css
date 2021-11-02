@@ -62,7 +62,6 @@ li.meau_choice {
     max-width: 1920px;
     height: auto;
     clear: both;
-
 }
 
 .introduce {
@@ -170,11 +169,9 @@ li.meau_choice {
 }
 
 .think {
-   
     padding: 50px 73px 110px 73px;
     top: -40px;
     text-align: justify;
-   
     height: 60%;
     font-size: 20px;
     line-height: 27.5px;
@@ -191,6 +188,7 @@ li.meau_choice {
     float: left;
     transform: rotateX(180deg)rotateY(180deg)
 }
+
 .IG_LINK{
     position: relative;
     top: -440px;
