@@ -95,7 +95,7 @@ li.meau_choice {
     transform-style: preserve-3d;
 }
 
-.flip-card:hover div.flip-card-inner {
+.flip-card:hover .flip-card-inner {
     transform: rotateX(180deg);
     max-width: 750px;
 }
