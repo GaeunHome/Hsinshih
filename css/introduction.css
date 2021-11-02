@@ -61,16 +61,16 @@ li.meau_choice{
     color: white;
 }
 
-.item{
-	float: left;
-	margin: 20px 20px 20px 20pz;
-	width: 40%;
-	
-	display: flex;
-    	justify-content: center; 
-    	align-items: center;
+.main{
+    margin:0 auto;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.space{
-    width: 10px;
+.item{
+    flex: none;
+    width: 495px;
+    background-color: black;
 }
