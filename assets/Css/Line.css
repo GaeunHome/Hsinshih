@@ -8,7 +8,7 @@ body{
     background-attachment: fixed;
 }
 
-*----------上方菜單----------*/
+/*----------上方菜單----------*/
 
 div.meau{
     background-color: beige ;
@@ -47,7 +47,7 @@ ul.meau_list{
 li.meau_choice{
     display: inline;
     padding: 0px 15px;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     float: left;
 }
