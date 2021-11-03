@@ -5,15 +5,7 @@ body{
     background-image: url(../picture/背景圖NEW.png);
     background-size: 1510px 766px;
     background-attachment: fixed;
-    font-family: "蠟筆體";
-}
-
-/*----------字體----------*/
-@font-face {
-    font-family: '蠟筆體';
-    src: url('../fonts/蠟筆體.woff') format("woff"),
-        url('../fonts/fu/蠟筆體.ttf') format("truetype"),
-        url('../fonts/蠟筆體.eot') format("embedded-opentype");
+    font-family: "微軟正黑體";
 }
 
 /*----------上方菜單----------*/
@@ -85,7 +77,7 @@ div.ContactInformation{
     border-color: #333333;
     background-color: #E6CAFF;
     font-weight: bold;
-    font-family: "蠟筆體";
+    font-family: "微軟正黑體";
     text-align: center;
     line-height: 50px;
 }
@@ -135,7 +127,7 @@ div.sheet{
 .title{
     font-size: 55px;
     font-weight: bold;
-    font-family: "蠟筆體";
+    font-family: "微軟正黑體";
     text-align: center;
     letter-spacing: 20px;
     color: 	#408080;
@@ -144,7 +136,7 @@ div.sheet{
 .item{
     font-size: 35px;
     font-weight: bold;
-    font-family: "蠟筆體";
+    font-family: "微軟正黑體";
     text-align: right;
     margin-top: 70px;
 }
@@ -152,7 +144,7 @@ div.sheet{
     border-radius: 12px;
     font-size: 40px;
     font-weight: bold;
-    font-family: "蠟筆體";
+    font-family: "微軟正黑體";
     padding: 10px;
     margin-top: 50px;
     margin-left: 20px;
