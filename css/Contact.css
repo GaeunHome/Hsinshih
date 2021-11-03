@@ -52,7 +52,16 @@ li.meau_choice{
     float: left;
 }
 
-/*宿舍聯絡資訊*/
+@keyframes swing{
+    15%{transform:translateX(5px);}
+    40%{transform: translateX(-5px);}
+    65%{transform: translateX(2px);}
+    85%{transform: translateX(-2px);}
+    100%{transform: translateX(0px);}
+}
+.demo:hover{
+    animation: swing 0.5s 5;
+}
 div.ContactInformation{
     width: 580px;
     padding: 30px 160px;
@@ -75,8 +84,9 @@ div.ContactInformation{
     background-color: #FFFFCE;
     letter-spacing: 25px;
 }
-.information_time{
+.information_time:hover{
     font-size: 25px;
+    transform: scale(1.2);
 }
 
 /*聯繫我們表單*/
