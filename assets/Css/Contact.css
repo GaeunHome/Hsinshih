@@ -47,12 +47,11 @@ ul.meau_list{
 li.meau_choice{
     display: inline;
     padding: 0px 15px;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     float: left;
 }
 
-/*----------宿舍聯絡資訊----------*/
 @keyframes swing{
     15%{transform:translateX(5px);}
     40%{transform: translateX(-5px);}
@@ -83,20 +82,16 @@ div.ContactInformation{
 }
 .information{
     background-color: #FFFFCE;
-    font-size: 45px;
     letter-spacing: 25px;
 }
-.information_time{
-    font-size: 35px;
-    letter-spacing: 10px;
-    opacity: 0.5;
-}
 .information_time:hover{
-    opacity: 2;
+    font-size: 25px;
+    transform: scale(1.2);
 }
 
-/*----------聯繫我們表單----------*/
+/*聯繫我們表單*/
 form{
+    
     width: 60%;
     margin-top: 15px;
     margin-bottom: 50px;
@@ -106,50 +101,40 @@ form{
 div.sheet{
     background-color: #FFFFCC;
     width: 65%;
-    padding: 60px 90px 60px 150px;
+    padding: 10px 155px;
     margin: auto;
     letter-spacing: 12px;
     line-height: 60px;
     border-radius: 15px;
+    border-collapse: collapse;
+    border-spacing: 40px 60px;
     border-style: double;
     border-color: #663300;
     border-width: 10px;
-    text-align: center;
-}
-.box{
-    width: 300px;
-    height: 30px;
-}
-.table{
-    margin-top: 50px;
-    margin-right: 100px;
 }
 .title{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
     font-family: "微軟正黑體";
     text-align: center;
     letter-spacing: 20px;
     color: 	#408080;
-    padding: 10px;
+    margin-bottom: 50px;
 }
 .item{
-    font-size: 35px;
+    font-size: 25px;
     font-weight: bold;
     font-family: "微軟正黑體";
     text-align: right;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .dot{
     border-radius: 12px;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: bold;
     font-family: "微軟正黑體";
-    padding: 10px;
-    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
-    line-height: 30px;
     width: 100px;
     background-color: transparent;
 }
