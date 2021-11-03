@@ -5,7 +5,15 @@ body{
     background-image: url('../Images/背景圖NEW.png');
     background-size: 1510px 766px;
     background-attachment: fixed;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
+}
+
+/*----------字體----------*/
+@font-face {
+    font-family: '蠟筆體';
+    src: url('../fonts/蠟筆體.woff') format("woff"),
+        url('../fonts/fu/蠟筆體.ttf') format("truetype"),
+        url('../fonts/蠟筆體.eot') format("embedded-opentype");
 }
 
 /*----------上方菜單----------*/
@@ -53,12 +61,31 @@ li.meau_choice{
 }
 
 /*-----影片-----*/
-.ti{
-    font-family: "微軟正黑體";
+.t1{
+    font-family: "蠟筆體";
     font-weight: bold;
     font-size: 50px;
     text-align: center;
     color: white;
+    width: 500px;
+    background:linear-gradient(to right,#A7CECB,#8B80F9);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+}
+.word{
+    width: 600px;
+    color: white;
+    font-size: 30px;
+    font-family: "蠟筆體";
+    text-align: center;
+    background-color: #424B54;
+    border-radius: 12px;
+    border-style: double;
+    border-color: #FFF275;
+    border-width: 10px ;
+    padding: 20px;
+    margin: 20px auto;
 }
 
 div.part_video{
