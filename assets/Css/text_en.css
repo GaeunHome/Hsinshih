@@ -1,7 +1,15 @@
 body{
     margin: 0; padding: 0; height: 100%; border:none;
     background: #00477D;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
+}
+
+/*----------字體----------*/
+@font-face {
+    font-family: '蠟筆體';
+    src: url('../fonts/蠟筆體.woff') format("woff"),
+        url('../fonts/fu/蠟筆體.ttf') format("truetype"),
+        url('../fonts/蠟筆體.eot') format("embedded-opentype");
 }
 
 /*----------上方菜單----------*/
@@ -74,7 +82,7 @@ div.know_content{
     margin: 10px 10px;
     padding: 10px 10px 10px 10px;
     width: 45%;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
     font-size: 20px;
     text-align: justify;
     color: #F3F3FA;
@@ -208,7 +216,7 @@ div.bus_content{
     margin: 10px 10px;
     padding: 10px 10px 10px 10px;
     width: 45%;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
     font-size: 20px;
     text-align: center;
     color: #F3F3FA;
@@ -230,6 +238,6 @@ div.bus_content > .bus_time{
     height:60px;
     border-radius: 10px;
     font-size: 16px;
-    font-family: "微黑正軟體";
+    font-family: "蠟筆體";
     background-color:pink;
 }
