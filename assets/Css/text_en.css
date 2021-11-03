@@ -4,12 +4,13 @@ body{
     font-family: "微軟正黑體";
 }
 
-*----------上方菜單----------*/
+/*----------上方菜單----------*/
 
 div.meau{
-    background-color: beige ;
+    background-color: beige;
     width: 100%;
     height: 120px;
+    float: left;
 }
 
 img.logo_area{
@@ -31,7 +32,7 @@ div.meau_area{
     right: 150px;
     top: 40px;
     padding: 0px;
-    float: right;
+    float: left;
 }
 
 ul.meau_list{
@@ -43,7 +44,7 @@ ul.meau_list{
 li.meau_choice{
     display: inline;
     padding: 0px 15px;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     float: left;
 }
@@ -229,6 +230,6 @@ div.bus_content > .bus_time{
     height:60px;
     border-radius: 10px;
     font-size: 16px;
-    font-family: "微軟正黑體";
+    font-family: "微黑正軟體";
     background-color:pink;
 }
