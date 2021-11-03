@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聯繫我們</title>
+    <style>
+        @import "../assets/Css/Contact.css";
+    </style>
+</head>
+<body>
+
+    <!--上方菜單-->
+    
+    <div class="meau">
+        <div class="logo_area">
+            <a href="https://www1.cycu.edu.tw/" target="_blank">
+                <img src="../assets/Images/logo.png" class="logo_area" alt="">
+            </a>
+        </div>
+
+        <div class="logo2_area">
+            <a href="https://www.facebook.com/people/%E4%B8%AD%E5%8E%9F%E5%A4%A7%E5%AD%B8%E4%BF%A1%E5%AF%A6%E5%AE%BF%E8%88%8D/100057069296205/" target="_blank">
+                <img src="../assets/Images/logo2.png" class="logo2_area" alt="">
+            </a>
+        </div>
+        
+        <div class="meau_area">
+            <ul class="meau_list">
+                <a href="../index.html"><li class="meau_choice">首頁</li></a>
+                <a href="videointroduction.html"><li class="meau_choice">宿舍影片介紹</li></a>
+                <a href="environment.html"><li class="meau_choice">周遭環境</li></a>
+                <a href="Line.html"><li class="meau_choice">路線</li></a>
+                <a href="member.html"><li class="meau_choice">成員介紹</li></a>
+                <a href="Contact.html"><li class="meau_choice">聯繫我們</li></a>
+            </ul>
+        </div>
+    </div>
+
+    <!--宿舍聯絡資訊-->
+    <div class="demo">
+    <div class="ContactInformation">
+        <h1 class="information">信實宿舍聯絡資訊</h1>
+        <h2 class="information_time">
+        地點:桃園市中壢區普忠路210號<br>
+        女生宿舍:03-2657600 (服務時間: 8:30~23:30)<br>
+        男生宿舍:03-2657700 (服務時間: 9:00~23:00)<br>
+        </h2>
+    </div>
+    </div>
+
+
+    <!--聯繫我們表單-->
+    <div class="demo">
+    <form method="post" action="mailto:cycubox@cycu.edu.tw?subject=Problems and responds" enctype="text/plain">
+        <div class="sheet">
+            <table border="0">
+                <tr>
+                    <th class="title" colspan="2">聯繫我們</th>
+                </tr>
+                 <tr>
+                    <td class="item">姓名： </td>
+                    <td colspan="2"><input type="text" name="user name" style="width: 300px; height: 30px;" placeholder="請輸入姓名"/></td>
+                </tr>
+                <tr>
+                    <td class="item">電話： </td>
+                    <td><input type="tel" name="phone" style="width: 300px; height: 30px;" placeholder="請輸入10碼數字" maxlength="10" /></td>
+                </tr>
+                <tr>
+                    <td class="item">E-Mail： </td>
+                    <td><input type="email" style="width: 300px; height: 30px;" placeholder="請輸入電子信箱"/></td>
+                </tr>
+                <tr>
+                    <td class="item">問題 / 建議： </td>
+                    <td><textarea name="problem" style="width: 300px; height: 100px; position: relative; top: 18.5px;" wrap="hard" placeholder="請輸入有關宿舍的問題或建議"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="height: 20px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><div class="a"><input class="dot" type="submit" value="送出"><input class="dot" type="reset" value="取消"></div></td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

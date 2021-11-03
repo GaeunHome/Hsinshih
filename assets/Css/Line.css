@@ -1,0 +1,114 @@
+body{
+    margin: 0; padding: 0; height: 100%; border:none; 
+    min-width: 1250px;
+    font-family: "微軟正黑體";
+    background-color: #00477D;
+    background-image: url('../Images/背景圖NEW.png');
+    background-size: 1510px 766px;
+    background-attachment: fixed;
+}
+
+/*----------上方菜單----------*/
+
+div.meau{
+    background-color: beige ;
+    width: 100%;
+    height: 120px;
+}
+
+img.logo_area{
+    width: 100px;
+    height: 80px;
+    margin: 20px 0px 0px 60px;
+    float: left;
+}
+
+img.logo2_area{
+    width: 250px;
+    height: 70px;
+    margin: 20px;
+    float: left;
+}
+
+div.meau_area{
+    position: absolute;
+    right: 150px;
+    top: 40px;
+    padding: 0px;
+    float: right;
+}
+
+ul.meau_list{
+    list-style-type: none;
+    margin: 0px;
+    float: right;
+}
+
+li.meau_choice{
+    display: inline;
+    padding: 0px 15px;
+    font-size: 30px;
+    color: black;
+    float: left;
+}
+
+/*----------路線首頁----------*/
+
+div.allline{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    float: left;
+}
+div.sport{
+    margin: 70px 80px 30px 350px;
+    padding: 50px 80px 30px 10px;
+    float: left;
+}
+div.breakfast{
+    margin: 110px 80px 30px 30px;
+    padding: 50px 80px 30px 10px;
+    float: left;
+}
+div.bussiness{
+    margin: 70px 80px 30px 350px;
+    padding: 50px 80px 30px 10px;
+    float: left;
+}
+div.ergonomics{
+    margin: 50px 80px 30px 30px;
+    padding: 50px 80px 30px 30px;
+    float: left;
+}
+img.pic{
+    width: 300px;
+}
+div.back{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    float: left;
+}
+img.buttom{
+    width: 200px;
+    position: relative;
+    top: 620px;
+    right: 140px;
+}
+
+/*----------路線1234----------*/
+
+div.map{
+    margin: 10px 80px 10px 430px;
+    padding: 20px 80px 20px 10px;
+    float: left;
+}
+.word{
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+    text-align: justify;
+    width: 640px;
+}
+h1{
+    color: whitesmoke;
+}
