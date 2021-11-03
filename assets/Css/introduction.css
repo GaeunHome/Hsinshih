@@ -8,7 +8,7 @@ body{
     font-family: "微軟正黑體";
 }
 
-*----------上方菜單----------*/
+/*----------上方菜單----------*/
 
 div.meau{
     background-color: beige ;
@@ -47,37 +47,18 @@ ul.meau_list{
 li.meau_choice{
     display: inline;
     padding: 0px 15px;
-    font-size: 40px;
+    font-size: 30px;
     color: black;
     float: left;
 }
 
 /*-----影片-----*/
-.t1{
+.ti{
     font-family: "微軟正黑體";
     font-weight: bold;
     font-size: 50px;
     text-align: center;
     color: white;
-    width: 500px;
-    background:linear-gradient(to right,#A7CECB,#8B80F9);
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 15px;
-}
-.word{
-    width: 600px;
-    color: white;
-    font-size: 30px;
-    font-family: "微軟正黑體";
-    text-align: center;
-    background-color: #424B54;
-    border-radius: 12px;
-    border-style: double;
-    border-color: #FFF275;
-    border-width: 10px ;
-    padding: 20px;
-    margin: 20px auto;
 }
 
 div.part_video{
@@ -86,6 +67,17 @@ div.part_video{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+div.video{
+    flex: none;
+    margin: 10px 10px 10px 10px;
+    width: 495px;
+    background-color: black;
+}
+
+div.space{
+    width: 10px;   
 }
 
 div.video{
