@@ -4,11 +4,19 @@ body {
     height: 100%;
     border: none;
     min-width: 1250px;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
     background-color: #00477D;
     background-image: url('../assets/Images/背景圖NEW.png');
     background-size: 1510px 766px;
     background-attachment: fixed;
+}
+
+/*----------字體----------*/
+@font-face {
+    font-family: '蠟筆體';
+    src: url('../fonts/蠟筆體.woff') format("woff"),
+        url('../fonts/fu/蠟筆體.ttf') format("truetype"),
+        url('../fonts/蠟筆體.eot') format("embedded-opentype");
 }
 
 /*----------上方菜單----------*/
@@ -68,7 +76,7 @@ li.meau_choice {
     color: white;
     text-align: center;
     font-size: 60px;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
     letter-spacing: 25px;
     font-weight: bolder;
     margin-top: 25px;
@@ -119,7 +127,7 @@ li.meau_choice {
     font-weight: 610;
     max-width: 750px;
     transform: rotateY(180deg);
-    font-family: 微軟正黑體;
+    font-family: 蠟筆體;
 }
 
 .person_areaB {
@@ -162,7 +170,7 @@ li.meau_choice {
 .text01 {
     width: 100%;
     font-size: 22px;
-    font-family: 微軟正黑體;
+    font-family: 蠟筆體;
     font-weight: bold;
     line-height: 28px;
     color: 	#4D1F00;
