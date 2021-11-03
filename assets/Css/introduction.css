@@ -16,7 +16,7 @@ body{
         url('../fonts/蠟筆體.eot') format("embedded-opentype");
 }
 
-/*----------上方菜單----------*/
+*----------上方菜單----------*/
 
 div.meau{
     background-color: beige ;
@@ -55,7 +55,7 @@ ul.meau_list{
 li.meau_choice{
     display: inline;
     padding: 0px 15px;
-    font-size: 30px;
+    font-size: 40px;
     color: black;
     float: left;
 }
