@@ -80,8 +80,8 @@ li.meau_choice {
     letter-spacing: 25px;
     font-weight: bolder;
     margin:35px auto;
-    margin-top: 25px;
-    margin-bottom: 28px;
+    /*margin-top: 25px;
+    margin-bottom: 28px;*/
     background:linear-gradient(to right,#A7CECB,#8B80F9);
     width:500px;
     padding:20px;
