@@ -60,6 +60,7 @@ li.meau_choice{
     float: left;
 }
 
+/*----------宿舍聯絡資訊----------*/
 @keyframes swing{
     15%{transform:translateX(5px);}
     40%{transform: translateX(-5px);}
@@ -84,22 +85,26 @@ div.ContactInformation{
     border-color: #333333;
     background-color: #E6CAFF;
     font-weight: bold;
-    font-family: "微軟正黑體";
+    font-family: "蠟筆體";
     text-align: center;
     line-height: 50px;
 }
 .information{
     background-color: #FFFFCE;
+    font-size: 45px;
     letter-spacing: 25px;
 }
+.information_time{
+    font-size: 35px;
+    letter-spacing: 10px;
+    opacity: 0.5;
+}
 .information_time:hover{
-    font-size: 25px;
-    transform: scale(1.2);
+    opacity: 2;
 }
 
-/*聯繫我們表單*/
+/*----------聯繫我們表單----------*/
 form{
-    
     width: 60%;
     margin-top: 15px;
     margin-bottom: 50px;
@@ -109,40 +114,50 @@ form{
 div.sheet{
     background-color: #FFFFCC;
     width: 65%;
-    padding: 10px 155px;
+    padding: 60px 90px 60px 150px;
     margin: auto;
     letter-spacing: 12px;
     line-height: 60px;
     border-radius: 15px;
-    border-collapse: collapse;
-    border-spacing: 40px 60px;
     border-style: double;
     border-color: #663300;
     border-width: 10px;
+    text-align: center;
+}
+.box{
+    width: 300px;
+    height: 30px;
+}
+.table{
+    margin-top: 50px;
+    margin-right: 100px;
 }
 .title{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: bold;
     font-family: "蠟筆體";
     text-align: center;
     letter-spacing: 20px;
     color: 	#408080;
-    margin-bottom: 50px;
+    padding: 10px;
 }
 .item{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     font-family: "蠟筆體";
     text-align: right;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .dot{
     border-radius: 12px;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     font-family: "蠟筆體";
+    padding: 10px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    line-height: 30px;
     width: 100px;
     background-color: transparent;
 }
