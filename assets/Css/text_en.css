@@ -121,7 +121,7 @@ div.toast > blockquote{
     font-weight: bold;
     color: black;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 img.toast{
@@ -161,7 +161,7 @@ div.tree > blockquote{
     font-weight: bold;
     color: black;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 div.bear{
@@ -182,7 +182,7 @@ div.bear > blockquote{
     font-weight: bold;
     color: black;
     text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 img.bear{
