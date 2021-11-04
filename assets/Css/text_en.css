@@ -117,7 +117,7 @@ div.toast > h1{
 }
 
 div.toast > blockquote{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -156,7 +156,7 @@ img.tree:hover{
 }
 
 div.tree > blockquote{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
     text-align: center;
@@ -176,7 +176,7 @@ div.bear > h1{
 }
 
 div.bear > blockquote{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     color: black;
     text-align: center;
