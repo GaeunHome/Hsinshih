@@ -81,6 +81,13 @@ li.meau_choice {
     font-weight: bolder;
     margin-top: 25px;
     margin-bottom: 28px;
+    background:linear-gradient(to right,#A7CECB,#8B80F9);
+    padding:20px;
+    border-radius:15px;
+    box-shadow: 5px 5px 5px #001B2E;
+}
+.introduction:hover{
+    transform:scale(1.1);
 }
 
 .flip-card {
