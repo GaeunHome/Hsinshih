@@ -79,6 +79,7 @@ li.meau_choice {
     font-family: "蠟筆體";
     letter-spacing: 25px;
     font-weight: bolder;
+    margin:35px auto;
     margin-top: 25px;
     margin-bottom: 28px;
     background:linear-gradient(to right,#A7CECB,#8B80F9);
