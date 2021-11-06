@@ -61,12 +61,15 @@ li.meau_choice{
 }
 
 /*-----影片-----*/
+table{
+    margin: 10px auto;
+}
 .t1{
     font-family: "蠟筆體";
     font-size: 50px;
     text-align: center;
     color: white;
-    width: 500px;
+    width: 400px;
     background:linear-gradient(to right,#A7CECB,#8B80F9);
     margin: 35px auto;
     padding: 20px;
@@ -76,47 +79,68 @@ li.meau_choice{
 .t1:hover{
     transform: scale(1.2);
 }
-.word{
-    width: 600px;
+
+.word1{
+    margin: 20px;
+    width: 525px;
+    height: 285px;
     color: white;
-    font-size: 30px;
-    font-family: "蠟筆體";
-    text-align: center;
     background-color: #424B54;
     border-radius: 12px;
     border-style: double;
     border-color: #FFF275;
     border-width: 10px ;
+    padding: 10px;
+}
+.word1:hover{
+    transform: rotate(-5deg);
+}
+.word2{
+    margin: 20px;
+    width: 525px;
+    height: 285px;
+    color: white;
+    background-color: #424B54;
+    border-radius: 12px;
+    border-style: double;
+    border-color: #FFF275;
+    border-width: 10px ;
+    padding: 10px;
+}
+.word2:hover{
+    transform: rotate(5deg);
+}
+.t2{
+    
+    margin: 5px;
+    text-align: left ;
+    font-size: 55px;
+    font-family: "蠟筆體";
+    padding: 5px;
+    border-bottom: 5px #DFFFD6 dotted;
+}
+.t3{
+    margin: 10px;
+    text-align: center ;
+    line-height: 40px;
+    font-size: 30px;
+    font-family: "蠟筆體";
     padding: 20px;
-    margin: 20px auto;
-}
-
-div.part_video{
-    margin:0 auto;
-    width: 1000px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 div.video{
-    flex: none;
-    margin: 10px 10px 10px 10px;
-    width: 495px;
+    margin: 20px;
+    width: 570px;
     background-color: black;
 }
 
-div.space{
-    width: 10px;   
+/*----------區域介紹----------*/
+.facility_picture{
+    display: block;
+    margin: auto;
+    padding: 20px 20px 20px 20px;
+    width: 50%;
 }
-
-div.video{
-    flex: none;
-    margin: 10px 10px 10px 10px;
-    width: 495px;
-    background-color: black;
-}
-
-div.space{
-    width: 10px;   
+.facility_picture:hover{
+    transform: scale(1.5);
 }
