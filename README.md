@@ -3,8 +3,6 @@
 [![HTML](https://img.shields.io/badge/HTML-5-E34F26)](https://developer.mozilla.org/docs/Web/HTML)
 [![CSS](https://img.shields.io/badge/CSS-3-1572B6)](https://developer.mozilla.org/docs/Web/CSS)
 
-110學年度第1學期 [MI234D]「多媒體程式設計」 - 期中專案網站「信實宿舍」
-
 為中原大學新生提供一個介紹校園周邊環境和推薦店家的平台，幫助他們更快速地融入大學生活。透過網頁設計和影片內容，提供實用的資訊並營造親切感。
 
 ## 團隊成員
